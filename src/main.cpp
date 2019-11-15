@@ -107,8 +107,10 @@ int main(int argc, char *argv[]) {
         NumberOfThreads = NumberOfThreads >> 1;
         power++;
     }
-    //power--;
-
+    power--;
+    if (power == 0) {
+        power = 1;
+    }
     NumberOfThreads = (int)pow(2.0, (double)(power));
     merge_sort(array);
     cout << "Sorted array:\n";
