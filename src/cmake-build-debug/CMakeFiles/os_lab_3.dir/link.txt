@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/os_lab_3.dir/main.cpp.o  -o os_lab_3 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zebr/os_lab_3-master/src/main.cpp" "/home/zebr/os_lab_3-master/src/cmake-build-debug/CMakeFiles/OS_lab3_new.dir/main.cpp.o"
+  "/home/zebr/os_lab_3-master/src/main.cpp" "/home/zebr/os_lab_3-master/src/cmake-build-debug/CMakeFiles/os_lab_3.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
