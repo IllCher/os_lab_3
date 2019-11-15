@@ -15,14 +15,14 @@ struct arguments {
 int char_to_int(char c) {
     if (c >= '0' && c <= '9') {
         return (c-'0');
-    } else {
+    } else if (c >= 'a' && c <= 'z') {
         c -= 'W';
-        if (c > 0) {
-            return (c);
-        } else {
-            return 0;
-        }
-    }
+    } else if (c >= 'A' && c <= 'Z') {
+        c = tolower(c);
+        c -= 'W';
+    } else {
+        return 0;
+    }    
 }
 
 bool a_lower_or_eq_b(string a, string b) {
